@@ -46,16 +46,6 @@ Example: Distribution of `Delivery_Lag` to identify typical delivery times and e
 
 ---
 
-## ⚙️ Preprocessing & Cleaning
-
-* Handled **missing values** using `SimpleImputer` / manual replacement where necessary.
-* Standardized categorical column names.
-* Encoded categorical variables for later use in ML pipelines.
-* Detected and treated outliers using IQR / z-score methods.
-* Applied **scaling or transformation** to normalize skewed numerical variables.
-
----
-
 ## 📈 Feature Engineering
 
 Derived new or composite features such as:
